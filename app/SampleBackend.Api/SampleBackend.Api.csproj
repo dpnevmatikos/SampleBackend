@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\SampleBackend.Data\SampleBackend.Data.csproj" />
+  </ItemGroup>
+
 </Project>
