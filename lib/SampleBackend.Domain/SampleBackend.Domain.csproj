@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SampleBackend.Config\SampleBackend.Config.csproj" />
+    <ProjectReference Include="..\Codehub.Create.Core\Codehub.Create.Core.csproj" />
+    <ProjectReference Include="..\SampleBackend.Data\SampleBackend.Data.csproj" />
     <ProjectReference Include="..\SampleBackend.Model\SampleBackend.Model.csproj" />
   </ItemGroup>
 

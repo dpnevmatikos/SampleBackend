@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\lib\SampleBackend.Data\SampleBackend.Data.csproj" />
+    <ProjectReference Include="..\..\lib\SampleBackend.Domain\SampleBackend.Domain.csproj" />
   </ItemGroup>
 
 </Project>
